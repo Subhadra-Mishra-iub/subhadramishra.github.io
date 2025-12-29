@@ -12,13 +12,13 @@ import References from '../components/Resume/References';
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import work from '../data/resume/work';
-import { skills, categories } from '../data/resume/skills';
+import { skills } from '../data/resume/skills';
 
 // NOTE: sections are displayed in order defined.
 const sections = {
   Education: () => <Education data={degrees} />,
   Experience: () => <Experience data={work} />,
-  Skills: () => <Skills skills={skills} categories={categories} />,
+  Skills: () => <Skills skills={skills} />,
   Courses: () => <Courses data={courses} />,
   References: () => <References />,
 };
