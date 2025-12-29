@@ -140,6 +140,19 @@
     margin-bottom: 1em;
     color: _palette(fg);
     font-size: 0.9em;
+    
+    a {
+      color: _palette(accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s ease, color 0.2s ease;
+      font-weight: _font(weight-heading);
+      
+      &:hover {
+        border-bottom-color: _palette(accent);
+        color: _palette(accent);
+      }
+    }
   }
   
   .icons {
