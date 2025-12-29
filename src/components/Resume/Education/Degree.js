@@ -6,15 +6,12 @@ const Degree = ({ data }) => (
     <header>
       <div className="degree-header">
         <h4 className="degree">{data.degree}</h4>
-        <div className="degree-right">
-          {data.gpa && (
-            <span className="degree-gpa">GPA: {data.gpa}</span>
-          )}
-          <span className="degree-year">{data.year}</span>
-        </div>
+        {data.gpa && (
+          <span className="degree-gpa">GPA: {data.gpa}</span>
+        )}
       </div>
       <p className="school">
-        <a href={data.link}>{data.school}</a>
+        <a href={data.link}>{data.school}</a>, {data.year}
       </p>
     </header>
   </article>

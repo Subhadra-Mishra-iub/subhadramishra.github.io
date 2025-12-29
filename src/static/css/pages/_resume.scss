@@ -146,7 +146,7 @@
     @include vendor("display", "flex");
     @include vendor("justify-content", "space-between");
     @include vendor("align-items", "flex-start");
-    margin-bottom: 0.5em;
+    margin-bottom: 0.25em;
 
     .degree {
       font-weight: normal;
@@ -157,27 +157,12 @@
       @include vendor("flex-grow", "1");
     }
 
-    .degree-right {
-      @include vendor("display", "flex");
-      @include vendor("flex-direction", "column");
-      @include vendor("align-items", "flex-end");
-      text-align: right;
-      margin-left: 1em;
-    }
-
     .degree-gpa {
       font-size: 0.75em;
       color: _palette(fg-light);
       font-weight: _font(weight);
       white-space: nowrap;
-      margin-bottom: 0.25em;
-    }
-
-    .degree-year {
-      font-size: 0.75em;
-      color: _palette(fg-light);
-      font-weight: _font(weight);
-      white-space: nowrap;
+      margin-left: 1em;
     }
   }
 
