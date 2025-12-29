@@ -157,12 +157,27 @@
       @include vendor("flex-grow", "1");
     }
 
+    .degree-right {
+      @include vendor("display", "flex");
+      @include vendor("flex-direction", "column");
+      @include vendor("align-items", "flex-end");
+      text-align: right;
+      margin-left: 1em;
+    }
+
     .degree-gpa {
       font-size: 0.75em;
       color: _palette(fg-light);
       font-weight: _font(weight);
       white-space: nowrap;
-      margin-left: 1em;
+      margin-bottom: 0.25em;
+    }
+
+    .degree-year {
+      font-size: 0.75em;
+      color: _palette(fg-light);
+      font-weight: _font(weight);
+      white-space: nowrap;
     }
   }
 
