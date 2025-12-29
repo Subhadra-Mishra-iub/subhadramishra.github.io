@@ -51,30 +51,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
-      - name: Build and Statically Render
-        shell: bash
-        run: |
-          function retry {
-            local n=1
-            local max=5
-            local delay=1
-            while true; do
-              "$@" && break || {
-                if [[ $n -lt $max ]]; then
-                  ((n++))
-                  echo "Command failed. Attempt $n/$max:"
-                  sleep $delay;
-                else
-                  echo "The command has failed after $n attempts."
-                  return 1
-                fi
-              }
-            done
-          }
-          retry npm run predeploy
+      - name: Build
+        run: npm run build
         env:
-          NODE_ENV: development
+          NODE_ENV: production
       - name: Test
         run: npm test
         env:
-          NODE_ENV: development
+          CI: true
