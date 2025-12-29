@@ -23,10 +23,10 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Subhadra. I am a Computer Science graduate student at{' '}
-        <a href="https://luddy.indiana.edu">Indiana University Bloomington</a>. 
-        Currently, I work as a Data Analyst, Schedule Director, and Broadcast TMC Operator at{' '}
-        <a href="https://wtiu.org">WFIU/WTIU</a>. I have experience in full-stack development, 
-        data science, cloud computing, and machine learning.
+        <a href="https://luddy.indiana.edu">Indiana University Bloomington</a>.
+        {' '}Currently, I work as a Data Analyst, Schedule Director, and Broadcast TMC Operator at{' '}
+        <a href="https://wtiu.org">WFIU/WTIU</a>. I have experience in full-stack development,
+        {' '}data science, cloud computing, and machine learning.
       </p>
       <ul className="actions">
         <li>

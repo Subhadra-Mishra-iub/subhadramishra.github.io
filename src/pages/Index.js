@@ -23,8 +23,8 @@ const Index = () => (
       </header>
       <p>
         {' '}
-        Welcome to my portfolio! I'm passionate about leveraging technology and data to solve complex problems. 
-        Feel free to explore my{' '}
+        Welcome to my portfolio! I&apos;m passionate about leveraging technology
+        {' '}and data to solve complex problems. Feel free to explore my{' '}
         <Link to="/about">background</Link>, check out my{' '}
         <Link to="/resume">resume</Link>, browse my{' '}
         <Link to="/projects">projects</Link>, or{' '}
@@ -32,9 +32,11 @@ const Index = () => (
       </p>
       <p>
         {' '}
-        I'm currently pursuing my Master's in Computer Science at Indiana University Bloomington, 
-        with expertise in full-stack development, data science, cloud computing, and machine learning. 
-        I bring hands-on experience from roles in software development, data analysis, and educational technology.
+        I&apos;m currently pursuing my Master&apos;s in Computer Science at
+        {' '}Indiana University Bloomington, with expertise in full-stack
+        {' '}development, data science, cloud computing, and machine learning.
+        {' '}I bring hands-on experience from roles in software development,
+        {' '}data analysis, and educational technology.
       </p>
     </article>
   </Main>
