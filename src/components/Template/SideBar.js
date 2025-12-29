@@ -1,32 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
-const ProfileViews = () => {
-  const [views, setViews] = useState(null);
-
-  useEffect(() => {
-    fetch('https://api.github.com/repos/Subhadra-Mishra-iub/subhadramishra.github.io')
-      .then((res) => res.json())
-      .then((data) => {
-        setViews(data.stargazers_count || 0);
-      })
-      .catch(() => {
-        // Silently fail if API is unavailable
-      });
-  }, []);
-
-  if (views === null) return null;
-
-  return (
-    <p style={{ fontSize: '0.85em', color: '#888', marginTop: '1em' }}>
-      Profile views: {views}
-    </p>
-  );
-};
-
-const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
+const { PUBLIC_URL } = process.env;
 
 const SideBar = () => (
   <section id="sidebar">
@@ -74,7 +51,6 @@ const SideBar = () => (
       <p className="copyright">
         &copy; Subhadra Mishra <Link to="/">Portfolio</Link>.
       </p>
-      <ProfileViews />
     </section>
   </section>
 );

@@ -48,15 +48,16 @@
           line-height: 1.5;
           
           &.button-primary {
-            background-color: _palette(fg-bold);
+            background: linear-gradient(135deg, _palette(fg-bold) 0%, darken(_palette(fg-bold), 5%) 100%);
             color: _palette(bg) !important;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
             border: none;
             
             &:hover {
-              background-color: _palette(accent);
-              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+              background: linear-gradient(135deg, _palette(accent) 0%, _palette(accent-hover) 100%);
+              box-shadow: 0 5px 12px rgba(74, 158, 232, 0.3);
               color: _palette(bg) !important;
+              transform: translateY(-2px);
             }
             
             &:before,

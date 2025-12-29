@@ -117,18 +117,18 @@
       background-color: _palette(fg-bold);
       color: _palette(bg) !important;
       text-decoration: none;
-      border-radius: 4px;
+      border-radius: 6px;
       font-weight: _font(weight-heading);
       font-size: 0.85em;
       text-transform: uppercase;
       letter-spacing: _font(kerning-heading);
-      transition: all 0.2s ease;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
 
       &:hover {
-        background-color: _palette(accent);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-        transform: translateY(-1px);
+        background: linear-gradient(135deg, _palette(accent) 0%, _palette(accent-hover) 100%);
+        box-shadow: 0 5px 12px rgba(74, 158, 232, 0.3);
+        transform: translateY(-2px);
         color: _palette(bg) !important;
       }
     }

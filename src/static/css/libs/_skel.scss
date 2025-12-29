@@ -426,18 +426,10 @@ $vendor-values: (
   }
 }
 
-///
-/// Sets breakpoints.
-/// @param {map} $x Breakpoints.
-///
 @mixin skel-breakpoints($x: ()) {
   $breakpoints: $x !global;
 }
 
-///
-/// Initializes layout module.
-/// @param {map} config Config.
-///
 @mixin skel-layout($config: ()) {
   // Config.
   $configPerBreakpoint: ();

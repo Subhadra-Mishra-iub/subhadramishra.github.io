@@ -44,13 +44,16 @@ $font: (
 
 // Palette.
 $palette: (
-  bg: #ffffff,
-  bg-alt: #fafafa,
+  bg: #fefefe,
+  bg-alt: #f8f8f8,
   fg: #4a4a4a,
   fg-bold: #2c2c2c,
   fg-light: #888888,
-  border: rgba(160, 160, 160, 0.25),
-  border-bg: rgba(160, 160, 160, 0.05),
-  border-alt: rgba(160, 160, 160, 0.5),
-  accent: #4a90e2,
+  border: rgba(160, 160, 160, 0.2),
+  border-bg: rgba(160, 160, 160, 0.04),
+  border-alt: rgba(160, 160, 160, 0.4),
+  accent: #5a9ee8,
+  accent-hover: #4a90e2,
+  shadow: rgba(0, 0, 0, 0.08),
+  shadow-hover: rgba(0, 0, 0, 0.12),
 );
