@@ -14,8 +14,12 @@ const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 
+// Only use basename in production builds (for GitHub Pages)
+// In tests and development, use empty basename
+const basename = process.env.NODE_ENV === 'production' ? '/subhadramishra.github.io' : '';
+
 const App = () => (
-  <BrowserRouter basename="/subhadramishra.github.io">
+  <BrowserRouter basename={basename}>
     <Suspense fallback={<Main />}>
       <Routes>
         <Route path="/" element={<Index />} />
