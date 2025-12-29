@@ -17,7 +17,7 @@ const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 
 const App = () => (
-  <BrowserRouter basename={PUBLIC_URL}>
+  <BrowserRouter basename={PUBLIC_URL || ''}>
     <Suspense fallback={<Main />}>
       <Routes>
         <Route path="/" element={<Index />} />
