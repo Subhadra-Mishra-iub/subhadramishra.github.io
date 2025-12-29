@@ -19,7 +19,7 @@ const Contact = () => (
         </div>
       </header>
       <div className="email-at">
-        <p>Feel free to get in touch.</p>
+        <p>Please feel free to get in touch.</p>
         <p>
           <strong>Email:</strong> <EmailLink />
         </p>

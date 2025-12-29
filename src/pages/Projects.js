@@ -49,7 +49,12 @@ const Projects = () => {
           </div>
         )}
         <div className="projects-social">
-          <p>For more projects, visit my GitHub</p>
+          <p>
+            For more projects, please visit my{' '}
+            <a href="https://github.com/Subhadra-Mishra-iub" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </p>
           <ContactIcons />
         </div>
       </article>

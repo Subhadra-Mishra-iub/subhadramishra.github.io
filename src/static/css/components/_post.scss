@@ -271,3 +271,33 @@
     }
   }
 }
+
+.projects-footer {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.projects-social {
+  text-align: center;
+  margin: 2em 0;
+  padding-top: 2em;
+  border-top: 1px solid _palette(border);
+
+  p {
+    margin-bottom: 1em;
+    color: _palette(fg);
+
+    a {
+      color: _palette(accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s ease, color 0.2s ease;
+      font-weight: _font(weight-heading);
+
+      &:hover {
+        border-bottom-color: _palette(accent);
+        color: _palette(accent);
+      }
+    }
+  }
+}
