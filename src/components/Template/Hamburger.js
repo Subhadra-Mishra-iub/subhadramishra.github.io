@@ -1,6 +1,6 @@
 import React, { Suspense, lazy, useState } from 'react';
 
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import routes from '../../data/routes';
 
 const Menu = lazy(() => import('react-burger-menu/lib/menus/slide'));
