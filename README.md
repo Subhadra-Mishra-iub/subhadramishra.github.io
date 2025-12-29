@@ -32,8 +32,8 @@ Master's in Computer Science from Indiana University Bloomington with experience
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Subhadra-Mishra-iub/My_Portfolio.git
-cd My_Portfolio/personal-site
+git clone https://github.com/Subhadra-Mishra-iub/subhadramishra.github.io.git
+cd subhadramishra.github.io
 ```
 
 2. Install dependencies:
