@@ -7,6 +7,24 @@ import Navigation from '../components/Template/Navigation';
 import SideBar from '../components/Template/SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
+const { NODE_ENV, REACT_APP_GA_TRACKING_ID } = process.env;
+
+if (NODE_ENV === 'production' && REACT_APP_GA_TRACKING_ID && typeof window !== 'undefined') {
+  const script1 = document.createElement('script');
+  script1.async = true;
+  script1.src = `https://www.googletagmanager.com/gtag/js?id=${REACT_APP_GA_TRACKING_ID}`;
+  document.head.appendChild(script1);
+
+  const script2 = document.createElement('script');
+  script2.innerHTML = `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${REACT_APP_GA_TRACKING_ID}');
+  `;
+  document.head.appendChild(script2);
+}
+
 const Main = (props) => (
   <HelmetProvider>
     <Analytics />

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
+import { trackEvent } from '../components/Template/Analytics';
 
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
@@ -51,6 +52,7 @@ const Resume = () => (
           href={`${process.env.PUBLIC_URL || ''}/Subhadra_Mishra_Resume.pdf`}
           download="Subhadra_Mishra_Resume.pdf"
           className="button button-primary"
+          onClick={() => trackEvent('download', 'Resume', 'Subhadra_Mishra_Resume.pdf')}
         >
           Download Resume (PDF)
         </a>
