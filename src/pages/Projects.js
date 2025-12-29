@@ -18,9 +18,7 @@ const Projects = () => {
       <article className="post" id="projects">
         <header>
           <div className="title">
-            <h2>
-              <Link to="/projects">Featured Projects</Link>
-            </h2>
+            <h2>Featured Projects</h2>
             <p>
               A selection of projects showcasing technical skills
               {' '}and problem-solving abilities

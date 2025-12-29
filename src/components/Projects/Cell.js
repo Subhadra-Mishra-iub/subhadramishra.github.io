@@ -8,7 +8,9 @@ const Cell = ({ data }) => (
       <header>
         <h3>
           {data.link ? (
-            <a href={data.link}>{data.title}</a>
+            <a href={data.link} target="_blank" rel="noopener noreferrer">
+              {data.title}
+            </a>
           ) : (
             <span>{data.title}</span>
           )}
@@ -20,7 +22,7 @@ const Cell = ({ data }) => (
       </header>
       {data.image && (
         data.link ? (
-          <a href={data.link} className="image">
+          <a href={data.link} className="image" target="_blank" rel="noopener noreferrer">
             <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
           </a>
         ) : (
