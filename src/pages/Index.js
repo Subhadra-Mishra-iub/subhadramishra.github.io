@@ -6,34 +6,35 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={
-      "Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-      + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'
+      "Subhadra Mishra's portfolio website. Data Analyst, Software Engineer, and Media Technology Specialist. "
+      + 'Computer Science graduate student at Indiana University Bloomington.'
     }
   >
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2>
-            <Link to="/">About this site</Link>
+            <Link to="/">Welcome</Link>
           </h2>
           <p>
-            A beautiful, responsive, statically-generated, react application
-            written with modern Javascript.
+            Data Analyst | Software Engineer | Media Technology Specialist
           </p>
         </div>
       </header>
       <p>
         {' '}
-        Welcome to my website. Please feel free to read more{' '}
-        <Link to="/about">about me</Link>, or you can check out my{' '}
-        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
-        view <Link to="/stats">site statistics</Link>, or{' '}
-        <Link to="/contact">contact</Link> me.
+        Welcome to my portfolio! I'm passionate about leveraging technology and data to solve complex problems. 
+        Feel free to explore my{' '}
+        <Link to="/about">background</Link>, check out my{' '}
+        <Link to="/resume">resume</Link>, browse my{' '}
+        <Link to="/projects">projects</Link>, or{' '}
+        <Link to="/contact">get in touch</Link>.
       </p>
       <p>
         {' '}
-        Source available{' '}
-        <a href="https://github.com/mldangelo/personal-site">here</a>.
+        I'm currently pursuing my Master's in Computer Science at Indiana University Bloomington, 
+        with expertise in full-stack development, data science, cloud computing, and machine learning. 
+        I bring hands-on experience from roles in software development, data analysis, and educational technology.
       </p>
     </article>
   </Main>

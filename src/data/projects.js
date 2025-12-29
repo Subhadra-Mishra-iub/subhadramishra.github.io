@@ -1,47 +1,63 @@
-// TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'CalmCompass',
+    subtitle: 'AI-Powered Emotional Wellness Tracking Platform',
+    image: '/images/projects/calmcompass.jpg',
+    date: '2024-12-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'An emotional wellness tracking application built with Next.js, Supabase, and AI integration. '
+      + 'Faced and overcame real-world challenges including database connections for serverless deployments, '
+      + 'React infinite loop debugging, Vercel deployment configuration, and API integration with Groq. '
+      + 'The project taught me valuable lessons about persistence, systematic debugging, and making informed '
+      + 'technology stack decisions. Implemented features like collapsible actions, action count displays, '
+      + 'and an AI chatbot for emotional support.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Nouveau Health Web Platform',
+    subtitle: 'Full-Stack Healthcare Management System',
+    image: '/images/projects/nouveau.jpg',
+    link: 'https://github.com/Subhadra-Mishra-iub/nouveau_react_local.git',
+    date: '2023-11-01',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Devised and deployed a full-stack platform using React, Node.js, and MySQL to streamline interactions '
+      + 'between patients, doctors, and insurers. Constructed and validated RESTful APIs with Google authentication, '
+      + 'DUO 2FA, and Socket.io via Postman, enabling secure, real-time communication across role-based dashboards. '
+      + 'Enhanced communication and safeguarded sensitive healthcare data.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Scalable Cloud Analytics Platform',
+    subtitle: 'Dask + AWS Distributed Computing',
+    image: '/images/projects/dask.jpg',
+    link: 'https://github.com/Subhadra-Mishra-iub/Scalable-Cloud-Computing-for-Efficient-Big-Data-Analytics-A-Dask-Integration-Approach.git',
+    date: '2024-05-01',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Architected a scalable distributed analytics platform on AWS using Dask and JupyterHub, enabling seamless '
+      + 'big data processing with ECS, EFS, and Docker for automated deployment and orchestration. '
+      + 'Reduced XGBoost hyperparameter tuning time by 71% (from 18.9 to 5.44 seconds), significantly accelerating '
+      + 'complex machine learning workflows and enhancing system performance.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Airline Performance Data Analysis',
+    subtitle: 'Predictive Analytics for Flight Delays',
+    image: '/images/projects/airline.jpg',
+    link: 'https://github.iu.edu/sumishra/airlines-performance-data-analysis.git',
+    date: '2023-11-01',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'Compiled, processed, and merged 9+ years of airline delay and cancellation data, performing EDA and '
+      + 'implementing Naive Bayes and SVM models, achieving 93% prediction accuracy in forecasting delays and cancellations. '
+      + 'Provided actionable insights that could enhance customer satisfaction by 25%, enabling proactive notifications '
+      + 'for 80-90% of delays, optimizing airline resource management, with a potential reduction in operational costs by 10%.',
+  },
+  {
+    title: 'NASA Climate Story Web Application',
+    subtitle: 'NASA International Space Apps Challenge',
+    image: '/images/projects/nasa.jpg',
+    link: 'https://github.com/Subhadra-Mishra-iub/NASA_Climate_Story_frontend.git',
+    date: '2024-10-01',
+    desc:
+      'Built the Climate Story Web Application using Meteomatics API for real-time weather visualization, '
+      + 'providing technical solutions to climate challenges in the NASA Space Apps Challenge. '
+      + 'Created an interactive platform for users to visualize and track climate change data.',
   },
 ];
 
