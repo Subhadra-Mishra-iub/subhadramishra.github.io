@@ -1,25 +1,25 @@
 # Subhadra Mishra - Portfolio Website
 
-This is my personal portfolio website showcasing my work, experience, and projects as a Data Analyst, Software Engineer, and Media Technology Specialist.
+Professional portfolio website showcasing my work, experience, and projects as a Software Engineer with strengths in Data, Cloud, and Automation.
 
 ## 🌐 Live Website
 
-Visit my portfolio at: **[https://subhadra-mishra-iub.github.io/subhadramishra.github.io/](https://subhadra-mishra-iub.github.io/subhadramishra.github.io/)**
+Visit my portfolio: **[https://subhadra-mishra-iub.github.io/subhadramishra.github.io/](https://subhadra-mishra-iub.github.io/subhadramishra.github.io/)**
 
 ## 📋 About
 
-I am a Computer Science graduate student at Indiana University Bloomington with a strong foundation in mathematics and computing from IIT Guwahati. My expertise spans cloud computing, data science, machine learning, and network security.
+Master's in Computer Science from Indiana University Bloomington with experience building full-stack applications, data pipelines, and cloud systems. Currently working as a Data Analyst and Broadcast Systems Engineer at WFIU/WTIU. Seeking full-time engineering roles starting 2025–2026.
 
-Currently, I serve as a Television Master Controller, Schedule Director, and Data Analyst at WFIU/WTIU, where I apply technical expertise in real-world digital system operations and data analysis.
+**Focus Areas:** Software Engineering (Backend/Full-Stack), Data Engineering/Analytics, QA Automation/SDET, Cloud/Platform Engineering
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- React
-- JavaScript
-- SCSS/SASS
-- React Router
-- Font Awesome
-- Markdown
+- **Frontend:** React, JavaScript/TypeScript, SCSS/SASS
+- **Routing:** React Router
+- **Styling:** SCSS with responsive design
+- **Icons:** Font Awesome
+- **Content:** Markdown for About page
+- **Deployment:** GitHub Pages via GitHub Actions
 
 ## 🚀 Getting Started
 
@@ -32,8 +32,8 @@ Currently, I serve as a Television Master Controller, Schedule Director, and Dat
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Subhadra-Mishra-iub/subhadramishra.github.io.git
-cd subhadramishra.github.io
+git clone https://github.com/Subhadra-Mishra-iub/My_Portfolio.git
+cd My_Portfolio/personal-site
 ```
 
 2. Install dependencies:
@@ -93,13 +93,17 @@ To customize this portfolio for your own use:
 
 This project is open source and available under the MIT License.
 
+## 🚀 Deployment
+
+The site is automatically deployed to GitHub Pages via GitHub Actions on every push to the `main` branch.
+
 ## 📧 Contact
 
-- Email: subhadramishrag@gmail.com
-- LinkedIn: [linkedin.com/in/subhadra-mishra](https://www.linkedin.com/in/subhadra-mishra/)
-- GitHub: [github.com/Subhadra-Mishra-iub](https://github.com/Subhadra-Mishra-iub)
+- **Email:** subhadramishrag@gmail.com
+- **LinkedIn:** [linkedin.com/in/subhadra-mishra](https://www.linkedin.com/in/subhadra-mishra/)
+- **GitHub:** [github.com/Subhadra-Mishra-iub](https://github.com/Subhadra-Mishra-iub)
 
 ---
 
-Built with React and deployed on GitHub Pages.
+Built with React and deployed on GitHub Pages. Last updated: 2025
 
