@@ -1,6 +1,12 @@
 // About page (/about)
 
 .markdown {
+  > p:first-of-type {
+    margin: 0.5em 0 1.25em 0;
+    line-height: 1.7;
+    color: _palette(fg);
+  }
+
   p {
     margin: 0 0 1.25em 0;
     line-height: 1.7;
@@ -14,8 +20,18 @@
     color: _palette(fg-bold);
     text-transform: uppercase;
     letter-spacing: _font(kerning-heading);
-    border-bottom: 2px solid _palette(accent);
     padding-bottom: 0.5em;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 2px;
+      background-color: _palette(accent);
+    }
   }
 
   strong {
